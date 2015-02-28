@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Multimedia::Cartel de ls zánganos</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="union.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="union.js"></script>
+	
+</head>
+<body>
+	
+	<header>
+		<h2>Multimedia</h2>
+		<div class="logo-container">
+			<div class="logo">
+				<script src="http://cdn.tagul.com/embed/hyftpspuxxod"></script>
+			</div>
+			<figure class="logouc"><img src="imagenes/uclogo	.png" alt="logo"></figure>
+		</div>
+	</header>
+
+	<div class="intro">
+		<article>
+			<p>Desde su origen, el grupo denominado Unión Ciudadana fundado por Javier Corral, Jaime García Chávez, Francisco Barrio y Víctor Quintana, ha estado inundado de mentiras. Primero porque de ciudadano no tiene nada y segundo porque  a nadie ha unificado.</p><p>Por el contrario, bajo el pretexto de denunciar supuestas irregularidades financieras del Gobernador del Estado, la Unión Ciudadana ha servido únicamente a los propósitos electoreros de grupo que lo encabeza para que Javier Corral busque por segunda ocasión la gubernatura del Estado.</p><p>En esta desbocada aventura política ni Corral ni Barrio han disimulado los intereses que los motivan y el resultado ha sido de total fracaso para su movimiento, porque han sido rechazados hasta por los panistas. Los números no mienten.</p><p>En los capítulos de Unión Ciudadana de Chihuahua reunieron apenas 800 personas, en Cuauhtémoc 275, en el Distrito Federal 50 y en Ciudad Juárez 250.</p><p>Estas cifras hablan del repudio que los chihuahuenses sienten por los políticos zánganos que no saben vivir fuera del presupuesto…y de las complicidades inconfesables con el narcotráfico.</p>
+		</article>
+	</div>
+
+	<nav >
+		<ul class="navegacion">
+			<li><a href="header">inicio</a></li>
+			<li><a href=".timeline">timeline</a></li>
+			<li><a href=".zanganos">videos</a></li>
+			<li><a href=".galeria">galería</a></li>
+		</ul>
+	</nav>
+	
+
+	
+
+	<section class="timeline">
+		<h2>Linea de tiempo 1992 - 1998</h2>
+		<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AnsEjxUrLNJGdGpxb2dWTDdsMklKcUthZVdJS1VoUGc&font=Bevan-PotanoSans&maptype=toner&lang=es&height=650' width='100%' height='650' frameborder='0'></iframe>
+	</section>
+
+	<section class="zanganos">
+		<h2>Videos</h2>
+		<div class="ep">
+			<ul>
+				<li><a id="ep1" href="#">Episodio 1</a></li>
+				<li><a id="ep2" href="#">Episodio 2</a></li>
+				<li><a id="ep3" class="btn-video" href="#">Episodio 3</a></li>
+			</ul>
+		</div>
+		<div class="videos">
+			<iframe id="vid-3" class="vid vid-act" width="853" height="480" src="https://www.youtube.com/embed/GHLZQFyOjYQ?controls=1" frameborder="0" allowfullscreen></iframe>
+
+			<iframe id="vid-2" class="vid" width="853" height="480" src="https://www.youtube.com/embed/4ifs1JeJV48?controls=0" frameborder="0" allowfullscreen></iframe>
+
+			<iframe id="vid-1" class="vid" width="853" height="480" src="https://www.youtube.com/embed/gqCyOsiee9M?controls=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</section>
+
+	<section class="galeria">
+		<h2>Imágenes</h2>
+		<div class="imgs">
+			<a class="img-minis" id="mandamientos" href="#"><figure>
+			<img src="imagenes/mandamientos.jpg"></figure><p>10 mandamientos</p></a>
+
+			<a class="img-minis" id="fam" href="#"><figure>
+			<img src="imagenes/familiafeliz.jpg"></figure><p>La familia feliz</p></a>
+
+			<a class="img-minis" id="huella" href="#"><figure>
+			<img src="imagenes/huella.png"></figure><p>La huella del narco<br>en el senado</p></a>
+
+			<!-- <a class="img-minis" id="reflex" href="#"><figure>
+			<img src="imagenes/reflexiones.png"></figure><p>Reflexiones en torno a<br>dos narcopolíticos</p></a> -->
+		</div>
+
+		<div class="img-g">
+			<figure>
+				<img id="im-dis" src="imagenes/tablero.jpg" alt="10 mandamientos">
+			</figure>
+		</div>
+
+		<div class="img-g2">
+			<div id="re1"></div>
+			<div id="re2"></div>
+			<div id="re3"></div>
+			<div id="re4"></div>
+			<div id="re5"></div>
+			<div id="re6"></div>
+			<div id="re7"></div>
+			<div id="re8"></div>
+			<div id="re9"></div>
+			<div id="re10"></div>
+			<div id="re11"></div>
+			<div id="re12"></div>
+			<div id="re13"></div>
+			<div id="re14"></div>
+			<div id="re15"></div>
+			<div id="re16"></div>
+			<div id="re17"></div>
+			<div id="re18"></div>
+		</div>
+
+
+		<div class="slider">
+			
+	    </div>
+		
+	</section>
+
+	<!-- <section class="cronica">
+	<h1>La huella del narco en el senado</h1>
+		<article>
+			<p>En plena campaña por la gubernatura de Chihuahua, en el verano de 2004, el candidato Javier Corral Jurado les platicó a los reporteros su biografía y les dijo que era huérfano desde los 10 años, que solo tenía dos hermanas, Socorro y Leticia, y que de niño había vendidos limones en los camiones.</p>
+			<img src="imagenes/corral.jpg" alt="Javier Corral">
+			<p>Javier Corral le dio un sesgo sentimental a su historia pero se cuidó muy bien de omitir los nombres de sus otros dos hermanos varones: Roberto y Raúl, dos delincuentes procesados y sentenciados en los Estados Unidos por narcotráfico y fraude bancario en 1998 y en el 2002, respectivamente.</p>
+			<p>Pero las historias delictivas de los hermanos de Javier no son cosa del pasado, como lo ha querido hacer ver el Senador. Roberto fue detenido en dos ocasiones en el 2004 también en El Paso, Texas con 10 y 20 onzas de marihuana que iba a vender y fue a la prisión del Condado por el delito de posesión.</p>
+			<p>Las razones de negar la existencia de sus hermanos incómodos son obvias, pero al salir a la luz pública los antecedentes delictivos de los mismos confirma lo que muchos medios nacionales y estatales han escrito sobre Javier Corral: su obsesión patológica por mentir, para cubrir intereses oscuros muy ajenos a la función pública.</p>
+			<p>Al quedar al descubierto las andanzas criminales de sus hermanos, Javier Corral ha intentado sin éxito justificar los antecedentes delictivos y en su defensa argumenta que Raúl y Roberto fueron víctimas circunstanciales que ya pagaron por sus culpas.</p>
+			<p>Sin embargo, los registros oficiales y los testimonios de quienes los conocieron en aquellos años muestran los perfiles de dos consumados pillos, preincidentes y con ligas peligrosas en el mundo del crimen organizado.</p>
+			<p>Los delitos federales confirmados de Roberto y Raúl, así como las complicidades de Javier con policías y políticos que fomentaron y toleraron el crimen organizado en Chihuahua, como Francisco Barrio, demuestran en este trabajo periodístico que en la familia Corral Jurado los genes del narco mandan.</p>
+		</article>
+	</section> -->
+
+	<script type="text/javascript">
+
+		inicio();
+		
+	</script>
+
+
+</body>
+</html>

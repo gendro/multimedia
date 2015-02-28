@@ -1,0 +1,247 @@
+verde = #6aa75e
+azul = #4c5175
+oscuro = #282828
+claro = #F3F3F1
+
+*
+	box-sizing border-box
+	
+body
+	font-size 16px
+	font-family courier new
+	
+h2
+	background oscuro
+	color claro
+	display inline-block
+	padding 0.3em 3em 0.3em 3em
+
+header
+	margin-bottom 100px
+	.intro
+		background claro
+		width 50%
+		article
+			margin-left 30px
+			padding 0.5em 1.5em
+	.logo-container
+		position absolute
+		top 80px
+		right 20px
+		width 40%
+		.logouc
+			text-align center	
+			img
+				width 70%
+	#flecha
+		// margin-left 45%
+		position absolute
+		bottom -2em
+		left 45%
+		width 50px
+		animation-duration: 1s;
+		animation-name: anima;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		-webkit-animation-duration: 1s;
+		-webkit-animation-name: anima;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+	
+	@keyframes anima
+		from
+			bottom -2em
+		to
+			bottom -1.4em
+	
+	
+
+		
+
+nav
+	background rgba(claro, 0.75)
+	padding 0.3em 120px 0.3em 0
+	position fixed
+	top 20px
+	right 0px
+	z-index 119
+	ul 
+		padding 0
+		margin 0
+		li
+			display inline-block
+			a
+				color oscuro
+				font-size 1.1em
+				margin-left 30px
+				text-decoration none
+				&:hover
+					border-bottom 1px solid oscuro
+					
+.galeria
+	p
+		text-align center
+		font-size 1.2em
+	
+.zanganos
+	p
+		font-size 1.2em
+		margin-left 10%
+	.ep
+		ul
+			margin 0 0 5px 10%
+			li
+				display inline-block
+				a
+					background rgba(oscuro,.45)
+					color claro
+					padding 0.4em 0.5em
+					text-decoration none
+				.btn-video
+					background oscuro
+
+	.videos
+		margin-bottom 2em
+		iframe
+			border 5px solid oscuro
+			display none
+			margin-left 10%
+		.vid-act
+			display block
+		
+.infografias
+	margin-bottom 1em
+.imagenes
+	margin 0 auto
+	text-align center
+	a
+		color oscuro
+		text-decoration none
+		figure
+			background claro
+			display inline-block
+			height 150px
+			margin 0 2em 3em 2em
+			overflow hidden
+			width 40%
+			span
+				background claro
+				display block
+				position relative
+				z-index 111
+			img
+				position relative
+				top -90px
+				width 100%
+.img-disp-cont
+	background rgba(oscuro, 0.75)
+	display none
+	height 100%
+	overflow-y auto
+	position fixed
+	top 0
+	width 102%
+	z-index 120
+	#tacha
+		padding 2em 2em 0 0
+		position absolute
+		right 20px
+		top 20px
+		width 80px
+	.img-disp
+		height 100%
+		margin 1em auto
+		img
+			border 1px solid claro
+			cursor url("imagenes/zoom.png"),auto 
+			// cursor zoom-in
+			display block
+			height 100%
+			margin auto
+			padding 0
+				
+.cronica
+	margin-bottom 4em
+	h1
+		margin-left 20%
+	article
+		margin-left 30%
+		text-align justify
+		width 50%
+		img
+			float left
+			margin 0 20px 0 -160px
+			width 350px
+	#ver-mas
+		border 1px solid oscuro
+		color oscuro
+		font-size 1.1em
+		padding 0.2em 0.5em
+		position relative
+		left 72%
+	.art-oculto
+		display none
+			
+.denuncia
+	.denuncias
+		figure
+			margin 0 auto
+			width 80%
+			img
+				width 100%
+			
+
+@media screen and (max-width: 768px)
+
+	header	
+		.logo-container
+			display inline-block
+			margin 
+			position static
+			width 90%
+		.intro
+			margin 70% auto 0 auto
+			padding 0
+			position static
+			width 95%
+		#flecha
+			display none
+	
+	.imagenes
+		a
+			figure
+				margin 0.2em auto
+				width 95%
+				
+	.zanganos
+		.videos
+			.vid
+				height 350px
+				margin 0 auto
+				width 95%
+				
+	.cronica
+		h1
+			margin 0 auto
+			padding 0.3em
+			font-size 1.5em
+		article
+			margin 0 auto
+			width 95%
+			img
+				float none
+				margin 0 auto
+				width 90%
+				
+	.denuncia
+		.denuncias
+			figure
+				margin 0 auto
+				overflow hidden
+				width 80%
+				img
+					margin-left -30px
+					width 120%
+
+		
+		
